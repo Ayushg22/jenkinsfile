@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage('code and build') {
             steps {
-               git 'https://github.com/ramyachetty/web-app.git'
-               sh 'mvn clean package'
+               sh 'hello jenkins'
+
             }
         }
     }
