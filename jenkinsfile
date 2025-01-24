@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('code and build') {
             steps {
-               sh 'hello jenkins'
+               echo 'hello jenkins'
 
             }
         }
