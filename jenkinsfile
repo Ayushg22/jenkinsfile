@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('code and build') {
             steps {
-               echo 'hello jenkins'
+              git https://github.com/Ayushg22/web-app.git
+            sh 'mvn clean package'
 
             }
         }
